@@ -1,0 +1,38 @@
+main {
+  font-family: monospace;
+}
+
+main div h1 {
+  text-align: center;
+}
+
+main div h1:hover {
+  color: blue;
+}
+
+main div:nth-of-type(3) {
+  background-color: turquoise;
+}
+
+main div:nth-of-type(3) ul li:not(li:last-of-type) {
+  font-style: italic;
+}
+
+main div:nth-of-type(4) {
+  text-align: center;
+}
+
+main div:nth-of-type(4) a {
+  border: 1px solid turquoise;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main div:nth-of-type(4) a:hover {
+  font-size: 30px;
+}
+
+main div:nth-of-type(4) a:active {
+  color: chartreuse;
+}
