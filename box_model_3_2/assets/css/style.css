@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Fredericka";
+  src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("../img/background-img.jpg") center/cover no-repeat;
+  height: 100vh;
+  padding: 20px 8%;
+}
+
+header h2 {
+  color: white;
+  margin-bottom: 30vh;
+  font-family: "Fredericka";
+  font-size: 2.5rem;
+}
+
+header div {
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+header div h1 {
+  font-size: 30px;
+  font-family: "Fredericka";
+  margin-bottom: 20px;
+}
+
+header div p {
+  margin-bottom: 25px;
+}
+
+header div a {
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+header div a:hover {
+  color: #333;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+header nav {
+  text-align: right;
+  margin-top: 120px;
+}
+
+header nav ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+header nav ul li {
+  margin: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+main {
+  height: 50vh;
+  text-align: center;
+  padding: 50px 10%;
+  color: #333;
+}
+
+main h2 {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Fredericka";
+}
+
+main p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 600px;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  margin: 0 auto;
+}
+
+main div {
+  border: 5px double #333;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main div a {
+  text-decoration: none;
+  color: #333;
+}
+
+main div a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #3a3b4a;
+  height: 20vh;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+footer article {
+  width: 700px;
+  padding: 25px;
+}
+
+footer article p {
+  margin-bottom: 30px;
+}
+
+footer article a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+footer article a:hover {
+  color: #333;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+footer nav ul {
+  text-align: center;
+}
+
+footer nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
