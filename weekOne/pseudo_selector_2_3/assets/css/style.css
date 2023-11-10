@@ -1,0 +1,43 @@
+main {
+  font-family: monospace;
+}
+
+div:first-of-type {
+  background-image: url("https://www.super-code.de/img/sc_logo2022.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  color: aquamarine;
+}
+
+div:nth-child(3) {
+  background-color: aquamarine;
+}
+
+li:not(li:last-of-type) {
+  font-style: italic;
+}
+
+div:last-child {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid aquamarine;
+}
+
+a:hover {
+  font-size: 1.3rem;
+}
+
+a:active {
+  color: aquamarine;
+}

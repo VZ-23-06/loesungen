@@ -1,0 +1,58 @@
+/* .main-div {
+    width: 300px;
+    height: 300px;
+    background-color: #546A7B;
+} */
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  background-color: #9bc1bc;
+  border: 20px solid #f4f1bb;
+  padding: 20px;
+  outline: 10px solid #546a7b;
+  box-shadow: 0 0 0 30px #ed6a5a;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li:first-of-type:before {
+  content: "\25b6"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9bc1bc; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul li:nth-child(2)::before {
+  content: "\25b6"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f4f1bb; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul li:nth-child(3)::before {
+  content: "\25b6"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #546a7b; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul li:nth-child(4)::before {
+  content: "\25b6"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ed6a5a; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+/* #F4F1BB
+#F4F1BB */

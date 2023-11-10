@@ -1,0 +1,9 @@
+section {
+  /* background-image: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-size: cover; */
+  /* oder  */
+
+  background: url("https://source.unsplash.com/random?computer") no-repeat
+    center/cover;
+}

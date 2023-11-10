@@ -1,0 +1,19 @@
+p {
+  border: 2px solid rgb(255, 204, 0);
+}
+
+p::before {
+  content: "Info";
+  background: rgb(255, 204, 0);
+  font-weight: bolder;
+}
+
+p::after {
+  content: "\2665";
+  color: rgb(255, 204, 0);
+}
+
+p::selection {
+  text-decoration: underline;
+  color: rgb(255, 204, 0);
+}

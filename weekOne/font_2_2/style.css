@@ -1,0 +1,28 @@
+/* font-family wird hier durch font-face importiert */
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  background: lime;
+  line-height: 2;
+  text-align: center;
+}
+
+p {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+}
+em {
+  font-family: "Fredoka One", cursive;
+  text-shadow: 2px -2px red;
+}
+strong {
+  font-family: "Press Start 2P", cursive;
+  font-size: 8px;
+}
+
+a {
+  font-family: "Fredoka One", cursive;
+  text-decoration: none;
+  color: black;
+}

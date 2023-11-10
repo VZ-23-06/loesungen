@@ -1,0 +1,11 @@
+section h1:first-of-type {
+  background: lightblue;
+}
+
+section {
+  background: linen;
+}
+
+article {
+  background-image: url("https://source.unsplash.com/random?nature");
+}

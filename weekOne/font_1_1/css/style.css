@@ -1,0 +1,38 @@
+h3 {
+  /* margin-top: 0; */
+  padding: 12px 0;
+  font-size: 48px;
+  font-family: arial;
+  color: #f9f9f9;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+p {
+  font-size: 20px;
+  padding: 0 50px;
+  text-align: justify;
+  color: #333;
+}
+ul {
+  padding: 0 50px;
+}
+ul li {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+ul .firstList {
+  text-decoration: overline;
+  text-align: left;
+  color: #777;
+}
+ul .secondList {
+  text-decoration: line-through;
+  text-align: center;
+  color: #777;
+}
+ul .thirdList {
+  text-decoration: underline;
+  text-align: right;
+  color: #777;
+}

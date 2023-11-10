@@ -1,0 +1,13 @@
+section {
+  background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+article {
+  background-image: url("https://images.unsplash.com/photo-1603398749947-87246022fbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

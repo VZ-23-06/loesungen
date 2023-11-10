@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 12px 0;
+  font-size: 48px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #f9f9f9;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  text-shadow: 5px 5px #000;
+}
+
+h1 + p {
+  text-indent: 40px;
+  padding: 0 30px;
+  word-spacing: 15px;
+  font-family: "Lucida Sans Unicode";
+}
+h1 + p + p {
+  text-indent: 60px;
+  padding: 0 30px;
+  word-spacing: -2px;
+}
+
+h2 {
+  text-shadow: 2px 2px #999;
+  padding: 0 30px;
+  letter-spacing: 10px;
+}
+
+h2 + p {
+  line-height: 1.8;
+  background: #999;
+  padding: 0 30px;
+}
+h2 + p + p {
+  line-height: 2.5;
+  background: #333;
+  color: white;
+  padding: 0 30px;
+}
