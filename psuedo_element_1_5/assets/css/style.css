@@ -19,7 +19,6 @@ p::first-letter {
 }
 
 /* mit pseudo elemente kann man ein bild hinter oder nach zu dem Element hinzufügen  */
-
 p::before {
   content: "";
   background: url("https://cdn-icons-png.flaticon.com/512/157/157247.png")
