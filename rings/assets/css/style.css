@@ -1,145 +1,145 @@
 @font-face {
-    font-family: lato;
-    src: url("../font/Lato-Regular.ttf");
-  }
+  font-family: lato;
+  src: url("../font/Lato-Regular.ttf");
+}
+
+:root{
+  --text-color: #222121;
+  --text-color-black: #000000;
+  --bg-color:#d9e8e5;
+  --bg-color-white:#ffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: var(--bg-color);
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 1.4rem;
+}
   
-  :root{
-    --text-color: #222121;
-    --text-color-black: #000000;
-    --bg-color:#d9e8e5;
-    --bg-color-white:#ffff;
-  }
+/* -----------------header---------------------- */
+.logo {
+  display: flex;
+  align-items: baseline;
+  margin-right: 2em;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.logo img{
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo h1{
+  font-weight: 400;
+  padding-left: 0.1em;
+}
+
+nav {
+  background-color: var(--bg-color-white);
+  padding: 1em 4em;
+  display: flex;
+  align-items: baseline;
+}
+
+/* -----------------navigation---------------------- */
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex: auto;
+  /* ?Die Eigenschaft flex: auto; ist eine Abkürzung für die Kombination der Flex-Eigenschaften flex-grow, flex-shrink und flex-basis. */
+}
+.push-right {
+  margin-left: auto;
+}
+
+nav a {
+  color: var(--text-color-black);
+  text-decoration: unset;
+  padding: 0 1.2rem;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  font-weight: 900;
+}
+
+
+/* ------------------main----------------------- */
+
+main{
+  padding: 10rem;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: var(--text-color-black);
+  margin: 0 0 2vw 3rem;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ! ring section */
+
+
+.ring-bg-style{
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  border-radius: 0.5rem;
+  padding: 0 2rem 1rem 0;
+}
+
+/* .bg-ring1, .bg-ring2, .bg-ring3, .bg-ring4, .bg-ring5, .bg-ring6{
+  background-size: cover;
+  width: 350px;
+  height: 250px;
+  display: flex;
   
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html{
-    font-size: 62.5%;
-    font-family: "lato", Arial, Helvetica, sans-serif;
-  }
-  
-  p{
-    font-size: 1.4rem;
-  }
-    
-  /* -----------------header---------------------- */
-  .logo {
-    display: flex;
-    align-items: baseline;
-    margin-right: 2em;
-    font-size: 3rem;
-    color: var(--text-color);
-  }
-  
-  .logo img{
-    width: 3rem;
-    height: 3rem;
-  }
-  
-  .logo h1{
-    font-weight: 400;
-    padding-left: 0.1em;
-  }
-  
-  nav {
-    background-color: var(--bg-color-white);
-    padding: 1em 4em;
-    display: flex;
-    align-items: baseline;
-  }
-  
-  /* - hello */
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    flex: auto;
-    /* ?Die Eigenschaft flex: auto; ist eine Abkürzung für die Kombination der Flex-Eigenschaften flex-grow, flex-shrink und flex-basis. */
-  }
-  .push-right {
-    margin-left: auto;
-  }
-  
-  nav a {
-    color: var(--text-color-black);
-    text-decoration: unset;
-    padding: 0 1.2rem;
-    font-size: 2rem;
-  }
-  
-  nav a:hover {
-    font-weight: 900;
-  }
-  
-  
-  /* ------------------main----------------------- */
-  
-  main{
-    background-color: var(--bg-color);
-    padding: 10rem;
-  }
-  
-  h2{
-    font-size: 2.5rem;
-    color: var(--text-color-black);
-    margin: 0 0 2vw 3rem;
-  }
-  
-  section{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  /* ! ring section */
-  
-  
-  .bg1{
-    background: url("../img/ring001.png") no-repeat center;
-  }
-  
-  .bg2{
-    background: url("../img/ring002.png") no-repeat center;
-  }
-  
-  .bg3{
-    background: url("../img/ring003.png") no-repeat center;
-  }
-  
-  .bg4{
-    background: url("../img/ring004.png") no-repeat center;
-  }
-  
-  .bg5{
-    background: url("../img/ring005.png") no-repeat center;
-  }
-  
-  .bg6{
-    background: url("../img/ring006.png") no-repeat center;
-  }
-  
-  .ring-bg-style{
-    background-size: cover;
-    width: 350px;
-    height: 250px;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    border-radius: 0.5rem;
-    padding: 0 2rem 1rem 0;
-  }
-  
-  /* .bg1, .bg2, .bg3, .bg4, .bg5, .bg6{
-    background-size: cover;
-    width: 350px;
-    height: 250px;
-    display: flex;
-    justify-content: end;
-    align-items:flex-end ;
-    border-radius: 0.5rem;
-    padding: 0 2rem 1rem 0;
-  } */
+  .....
+
+} */
+
+.bg-ring1{
+  background: url("../img/ring001.png") center/cover no-repeat;
+}
+
+.bg-ring2{
+  background: url("../img/ring002.png") center/cover no-repeat;
+}
+
+.bg-ring3{
+  background: url("../img/ring003.png") center/cover no-repeat;
+}
+
+.bg-ring4{
+  background: url("../img/ring004.png") center/cover no-repeat;
+}
+
+.bg-ring5{
+  background: url("../img/ring005.png") center/cover no-repeat;
+}
+
+.bg-ring6{
+  background: url("../img/ring006.png") center/cover no-repeat;
+}
+
