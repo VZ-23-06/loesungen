@@ -1,0 +1,121 @@
+/* ---------------Schriftart--------------- */
+@font-face {
+  font-family: lato;
+  src: url("../font/Lato-Regular.ttf");
+}
+
+/* ---------------Variablen--------------- */
+:root {
+  --text-color: #222121;
+  --text-color-black: #000000;
+  --bg-color: #d9e8e5;
+  --bg-color-white: #ffff;
+}
+
+/* ---------------Reset und Standardwerte--------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* ---------------Styles für den Body--------------- */
+html {
+  font-size: 62.5%;
+  background-color: var(--bg-color);
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+/* ---------------Typografie--------------- */
+p {
+  font-size: 1.4rem;
+}
+
+/* ---------------Styles für den Header--------------- */
+.logo {
+  display: flex;
+  align-items: baseline;
+  margin-right: 2em;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+/* ---------------Styles für die Navigation--------------- */
+nav {
+  background-color: var(--bg-color-white);
+  padding: 1em 4em;
+  display: flex;
+  align-items: baseline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex: auto;
+  /* ?Die Eigenschaft flex: auto; ist eine Abkürzung für die Kombination der Flex-Eigenschaften flex-grow, flex-shrink und flex-basis. */
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+nav a {
+  color: var(--text-color-black);
+  padding: 0 1.2rem;
+  font-size: 2rem;
+}
+
+/* ---------------Styles für den Hauptbereich--------------- */
+main {
+  padding: 10rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--text-color-black);
+  margin: 0 0 2vw 3rem;
+}
+
+/* ---------------Styles für Abschnitte--------------- */
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ---------------Styles für Ringe--------------- */
+.ring-bg-style {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  border-radius: 0.5rem;
+  padding: 0 2rem 1rem 0;
+}
+
+.bg-ring1 {
+  background: url("../img/ring001.png") center/cover no-repeat;
+}
+
+.bg-ring2 {
+  background: url("../img/ring002.png") center/cover no-repeat;
+}
+
+.bg-ring3 {
+  background: url("../img/ring003.png") center/cover no-repeat;
+}
+
+.bg-ring4 {
+  background: url("../img/ring004.png") center/cover no-repeat;
+}
+
+.bg-ring5 {
+  background: url("../img/ring005.png") center/cover no-repeat;
+}
+
+.bg-ring6 {
+  background: url("../img/ring006.png") center/cover no-repeat;
+}
