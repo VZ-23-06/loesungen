@@ -1,0 +1,146 @@
+/* Generell */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 5%;
+  background-color: #e9e9e0;
+}
+
+/* header */
+
+header h1 {
+  text-align: center;
+  padding: 2vh 0;
+  font-size: 3rem;
+}
+
+header h1 span {
+  font-size: 5rem;
+}
+
+/* main */
+
+main section:nth-of-type(1) {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  border-top-style: double;
+  border-bottom-style: double;
+}
+
+/* main section big grid */
+
+main section:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "headline  headline  headline headline aside"
+    "infoText1 infoText2 bigPic bigPic aside"
+    "infoText3 infoText4 bigPic bigPic aside"
+    "infoText5 infoText6 bigPic bigPic aside";
+}
+
+main section:nth-of-type(2) h2 {
+  text-align: center;
+  font-size: 3rem;
+  grid-area: headline;
+  margin: 20px 0;
+}
+
+main section:nth-of-type(2) div h3 {
+  font-size: 2.2rem;
+}
+
+main section:nth-of-type(2) div p {
+  font-size: 1.8rem;
+}
+
+main section:nth-of-type(2) .infoText1 {
+  grid-area: infoText1;
+}
+
+main section:nth-of-type(2) .infoText2 {
+  grid-area: infoText2;
+}
+
+main section:nth-of-type(2) .infoText3 {
+  grid-area: infoText3;
+}
+
+main section:nth-of-type(2) .infoText4 {
+  grid-area: infoText4;
+}
+
+main section:nth-of-type(2) .infoText5 {
+  grid-area: infoText5;
+}
+
+main section:nth-of-type(2) .infoText6 {
+  grid-area: infoText6;
+}
+
+main section:nth-of-type(2) figure {
+  grid-area: bigPic;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section:nth-of-type(2) figure img {
+  width: 100%;
+}
+
+main section:nth-of-type(2) figure figcaption {
+  font-size: 1.8rem;
+}
+
+main section:nth-of-type(2) aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main section:nth-of-type(2) aside > h3 {
+  font-size: 2.6rem;
+  padding: 2vh 0;
+}
+
+main section:nth-of-type(2) aside div {
+  border-style: double;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 2vh;
+  padding: 3%;
+}
+
+main section:nth-of-type(2) aside .asideKachel1 h2 {
+  font-size: 6rem;
+}
+
+main section:nth-of-type(2) aside .asideKachel2 h3 {
+  font-size: 2.6rem;
+}
+
+main section:nth-of-type(2) aside .asideKachel2 p {
+  font-size: 2rem;
+}
+
+main section:nth-of-type(2) aside .asideKachel2 a {
+  font-size: 2.2rem;
+  color: lightgray;
+}
+
+main section:nth-of-type(2) aside .asideKachel3 img {
+  width: 100%;
+  filter: grayscale(100);
+}
