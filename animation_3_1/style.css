@@ -1,0 +1,52 @@
+.mein_div {
+  height: 120px;
+  width: 120px;
+  background-color: silver;
+  border-radius: 100%;
+  position: absolute;
+  animation: meine_animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.mein_div:nth-of-type(2) {
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+.mein_div:nth-of-type(3) {
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+.mein_div:nth-of-type(4) {
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes meine_animation {
+  0% {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+  }
+  25% {
+    background-color: gold;
+    top: 50px;
+    left: 600px;
+  }
+  50% {
+    background-color: lime;
+    top: 600px;
+    left: 600px;
+  }
+  75% {
+    background-color: blue;
+    top: 600px;
+    left: 50px;
+  }
+  100% {
+    top: 50px;
+    left: 50px;
+  }
+}
