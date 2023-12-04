@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+  font-size: 15px;
+}
+
+/* body {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 50px 80vh 20vh;
+  grid-template-areas:
+    "header header header"
+    "main aside aside"
+    "footer footer footer";
+}
+
+header {
+  border: 2px solid red;
+  background-color: red;
+  grid-area: header;
+}
+
+main {
+  border: 2px solid blue;
+  background-color: blue;
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+  background-color: cyan;
+} */
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+main {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 50vh 50vh;
+  grid-template-areas:
+    "first_img second_img third_img"
+    "fourth_img fifth_img sixth_img";
+}
+
+img {
+  width: 250px;
+  height: 400px;
+}
+
+main img:nth-of-type(1) {
+  grid-area: first_img;
+}
+
+main img:nth-of-type(2) {
+  grid-area: second_img;
+}
+
+main img:nth-of-type(3) {
+  grid-area: third_img;
+}
+
+main img:nth-of-type(4) {
+  grid-area: fourth_img;
+}
+
+main img:nth-of-type(5) {
+  grid-area: fifth_img;
+}
+
+main img:nth-of-type(6) {
+  grid-area: sixth_img;
+} */
+
+main section:nth-of-type(1) img {
+  width: 100vw;
+  height: 100vh;
+}
+
+main section:nth-of-type(2) {
+  width: 60%;
+  height: 60%;
+}
+
+main section:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+}
+
+main section:nth-of-type(1) p:first-child {
+  color: red;
+  /* 2 * 15 = 30px */
+  font-size: 2rem;
+  padding: 10% 20px;
+  /* bei img oder bilder werden immer die Units wie vw,vh und % verwendet */
+  /* für padding und margin werden wir nur mit % und px arbeiten */
+  /* für font-size werden nur rem und em verwendet */
+}
+
+main section:nth-of-type(1) {
+  font-size: 10px;
+}
+
+main section:nth-of-type(1) p:nth-child(2) {
+  color: blue;
+  font-size: 3em;
+}
+
+.section__position {
+  position: relative;
+
+  background-color: blueviolet;
+  height: 800px;
+}
+
+.section__position h3:first-child {
+  position: absolute;
+  right: 50%;
+  top: 30px;
+}
+
+.section__position h3:last-child {
+  color: red;
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+}
