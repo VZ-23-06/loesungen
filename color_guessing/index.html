@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color guessing</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <h4>Guess what color <span id="question"></span> is:</h4>
+
+    <div class="buttons">
+        <button id="bt1" onclick="checkCol(id)"></button>
+        <button id="bt2" onclick="checkCol(id)"></button>
+        <button id="bt3" onclick="checkCol(id)"></button>
+        <button id="bt4" onclick="checkCol(id)"></button>
+        <button id="bt5" onclick="checkCol(id)"></button>
+    </div>
+
+    <div class="buttons reset">
+        <button class="reset-button" onclick="resetMe()">Reset Me</button>
+    </div>
+
+    <div id="res"></div>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

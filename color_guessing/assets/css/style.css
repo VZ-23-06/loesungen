@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+button {
+  height: 100px;
+  width: 100px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.buttons.reset {
+  padding: 20px 0;
+}
+#res {
+  text-align: center;
+}
+.reset-button {
+  height: 30px;
+  width: 100px;
+}
