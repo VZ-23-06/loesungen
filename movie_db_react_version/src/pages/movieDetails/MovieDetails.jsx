@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { mainContext } from '../../context/mainProvider'
 
 const MovieDetails = () => {
@@ -32,7 +32,7 @@ const MovieDetails = () => {
                     </ul>
                 )
             })}
-
+            <Link to="/">Back to Movies</Link>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { mainContext } from '../../context/mainProvider'
 import MovieCard from '../movieCard/MovieCard'
+import Header from '../../components/header/Header'
 
 const MoviesGallery = () => {
 
@@ -10,6 +11,7 @@ const MoviesGallery = () => {
     return (
         <>
             <h2>MoviesGallery</h2>
+            <Header />
             <main>
                 {movies.map((movie, index) => {
                     return (
